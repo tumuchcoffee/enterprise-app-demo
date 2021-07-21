@@ -4,6 +4,9 @@
 
 export const environment = {
   production: false,
+  clientId: 'bda62570-d959-453d-9af5-aae9f15c2c74',
+  authority: 'https://login.microsoftonline.com/ac765bab-27a8-484f-a45a-fea45f848c01',
+  redirectUrl: 'http://localhost:4200',
   firebase: {
     apiKey: "AIzaSyA66myDUKulTPxWlrk6s4u0CdUyUrWV1q4",
     authDomain: "enterprise-app-demo.firebaseapp.com",
