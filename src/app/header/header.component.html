@@ -1,7 +1,0 @@
-<mat-toolbar color="primary">
-    <a class="title" href="/">{{ title }}</a>
-    <div class="toolbar-spacer"></div>
-    <a mat-button [routerLink]="['/dash']">Dashboard</a>
-    <button mat-raised-button *ngIf="!loggedIn" (click)="login()">Login</button>
-    <button mat-raised-button color="accent" *ngIf="loggedIn" (click)="logout()">Logout</button>
-  </mat-toolbar>
